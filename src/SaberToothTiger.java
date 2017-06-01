@@ -2,14 +2,14 @@
 public class SaberToothTiger {
 	
 	public SaberToothTiger(){
-		System.out.println("It is SaberToothTiger");
+		System.out.println("SaberToothTiger is created");
 	}
 	
 	public String sleep() {
-		return "An SaberToothTiger sleeps...";
+		return "The SaberToothTiger sleeps...";
 	}
 	public String eat() {
-		return "An SaberToothTiger eats...";
+		return "The SaberToothTiger eats...";
 	}
 	
 	

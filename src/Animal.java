@@ -1,13 +1,7 @@
 
-public class Animal {
+public abstract class Animal  implements iAnimal{
 	
-	public Animal() {
-		System.out.println("A new animal has been created!");
-	}
-	public String sleep() {
-		return "An animal sleeps...";
-	}
-	public String eat() {
-		return "An animal eats...";
-	}
+	public abstract String sleep();
+		
+	public abstract String eat();
 }

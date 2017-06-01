@@ -2,7 +2,7 @@
 public class Dog extends Animal{
 	
 	public Dog(){
-		System.out.println("It's a dog");
+		System.out.println("A dog is created");
 	}
 	
 	public String barks(){

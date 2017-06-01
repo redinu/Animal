@@ -1,7 +1,7 @@
 
 public class Fish extends Animal{
 	public Fish(){
-		System.out.println("The Fish is living in the see");
+		System.out.println("The Fish is created");
 	}
 	
 	public String swim(){
